@@ -1,0 +1,22 @@
+{
+    "name": "zeit-theme",
+    "displayName": "zeit-theme",
+    "description": "VS COde theme using ZEIT colors",
+    "version": "0.0.1",
+    "publisher": "lfades",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ZEIT Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ZEIT Theme-color-theme.json"
+            }
+        ]
+    }
+}
